@@ -1,0 +1,101 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 40px;
+}
+
+#blue {
+  color: blueviolet;
+}
+.glowing-button {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 40px;
+}
+.flex-container {
+  display: flex;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.top-banner {
+  background-image: url(images/shapes/Frame\ 56.jpg);
+  background-repeat: no-repeat;
+}
+.mid-section {
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+.recipe-section {
+  display: flexbox;
+  padding-left: 20px;
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+.last-section {
+  display: flexbox;
+  padding-left: 20px;
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+}
+
+half-width {
+  width: 50%;
+  padding: 7%;
+}
+half-width img {
+  width: 100%;
+}
+half-width p {
+  width: 40%;
+}
+.product-box {
+  background-color: #f5f6f8;
+  padding: 15px;
+  padding-bottom: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 20%;
+  height: 280px;
+  box-shadow: 5px 5px 5px 5px #888888;
+}
+.product-box img {
+  border-radius: 10px;
+  width: 100%;
+  height: 50%;
+  padding-bottom: 0;
+  object-fit: cover;
+}
+.box-container {
+  justify-content: center;
+}
+.footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(24, 23, 23);
+  color: rgb(228, 225, 225);
+  text-align: center;
+}
+.yellow-text {
+  color: yellowgreen;
+}
+.unified-box {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5f6f8;
+  padding: 15px;
+  padding-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #888888;
+}
